@@ -28,7 +28,7 @@ const TableAlphaNumeric = () => {
             <div>{sumNumber(i)}</div>
             <div>{text}</div>
             <div>{first}</div>
-            <div>{last}</div>
+            <div>{last || '-'}</div>
           </BodyItemContainer>
         )) : <NoData>No data 😓</NoData>}
       </Body> 
