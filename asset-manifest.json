@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/platzi-c8/static/css/main.633d2ed0.chunk.css",
-    "main.js": "/platzi-c8/static/js/main.941879ad.chunk.js",
-    "main.js.map": "/platzi-c8/static/js/main.941879ad.chunk.js.map",
+    "main.js": "/platzi-c8/static/js/main.1664da9c.chunk.js",
+    "main.js.map": "/platzi-c8/static/js/main.1664da9c.chunk.js.map",
     "runtime-main.js": "/platzi-c8/static/js/runtime-main.6d9f408a.js",
     "runtime-main.js.map": "/platzi-c8/static/js/runtime-main.6d9f408a.js.map",
     "static/js/2.6a82a1cc.chunk.js": "/platzi-c8/static/js/2.6a82a1cc.chunk.js",
@@ -15,6 +15,6 @@
     "static/js/runtime-main.6d9f408a.js",
     "static/js/2.6a82a1cc.chunk.js",
     "static/css/main.633d2ed0.chunk.css",
-    "static/js/main.941879ad.chunk.js"
+    "static/js/main.1664da9c.chunk.js"
   ]
 }
