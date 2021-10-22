@@ -12,19 +12,21 @@ import { BodyItemContainer, NoData } from '../Common/Table/styles'
 
 const TableAlphaNumeric = () => {
   const { alphaNumeric } = useContext(ContextApp)
-  const columns = 3
+  const columns = 4
 
   return (
     <Table>
       <Head columns={columns}>
         <li>#</li>
+        <li>Text</li>
         <li>First character</li>
         <li>Last character</li>
       </Head>
       <Body>
-        {alphaNumeric.length > 0 ? alphaNumeric?.map(({ id, first, last}, i) => (
+        {alphaNumeric.length > 0 ? alphaNumeric?.map(({ id, first, last, text = '-'}, i) => (
           <BodyItemContainer key={id} columns={columns}>
             <div>{sumNumber(i)}</div>
+            <div>{text}</div>
             <div>{first}</div>
             <div>{last}</div>
           </BodyItemContainer>

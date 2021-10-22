@@ -25,6 +25,7 @@ export const createObjAlpha = (value) => {
   return {
     first: value.charAt(0),
     last: !isEmptyOne && value.charAt(lastCharacter),
+    text: value,
     createAt: new Date()
   }
 }
